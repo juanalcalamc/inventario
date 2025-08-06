@@ -77,10 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django'
 ,
-         'NAME': os.environ.get('DB_NAME', 'flock'),
-        'USER': os.environ.get('DB_USER', 'sal_user'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'sal_pass'),
-        'HOST': os.environ.get('DB_HOST', 'db'),
+         'NAME': os.environ.get('DB_NAME', 'bm0b5qenkdqmsryywkfw'),
+        'USER': os.environ.get('DB_USER', 'uphc863xus8ue0e1'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'LrGrmh3bI4Iu8DbG0laf'),
+        'HOST': os.environ.get('DB_HOST', 'bm0b5qenkdqmsryywkfw-mysql.services.clever-cloud.com'),
         'PORT': os.environ.get('DB_PORT', '3306'),
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
