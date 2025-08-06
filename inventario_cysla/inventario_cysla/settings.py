@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'inventario_cysla.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django'
+        'ENGINE': 'django.db.backends.mysql'
 ,
          'NAME': os.environ.get('DB_NAME', 'bm0b5qenkdqmsryywkfw'),
         'USER': os.environ.get('DB_USER', 'uphc863xus8ue0e1'),
