@@ -4,14 +4,17 @@
       "phases": {
         "setup": {
           "nixPkgs": [
-            "python312",
-            "mariadb",
-            "pkg-config",
-            "libffi",
-            "openssl",
-            "mariadb-connector-c",
-            "gcc",
-            "gnumake"
+
+  "python312",
+  "mariadb",
+  "pkg-config",
+  "libffi",
+  "openssl",
+  "mariadb-connector-c",
+  "gcc",
+  "gnumake"
+]
+
           ]
         },
         "start": {
