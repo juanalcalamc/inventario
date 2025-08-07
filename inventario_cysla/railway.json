@@ -15,7 +15,6 @@
   "gnumake"
 ]
 
-          ]
         },
         "start": {
           "cmd": "gunicorn inventario_cysla.wsgi --bind 0.0.0.0:$PORT"
